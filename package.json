@@ -1,0 +1,26 @@
+{
+  "name": "@gandalfwisdom/stackbuddy",
+  "version": "1.0.0",
+  "description": "A standard stack data structure for Roblox.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GandalfWisdom/StackBuddy.git",
+    "directory": "src/stackbuddy/"
+  },
+  "keywords": [
+    "Roblox",
+    "Nevermore",
+    "Lua"
+  ],
+  "author": "GandalfWisdom",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/GandalfWisdom/StackBuddy/issues"
+  },
+  "homepage": "https://github.com/GandalfWisdom/StackBuddy#readme"
+}
