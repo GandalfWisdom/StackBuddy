@@ -4,7 +4,7 @@ A simple stack data structure class for roblox.
 
 
 ## Features
-StackBuddy allows you to utilize a stack data structure ([LIFO](## 'Last in first out')).
+StackBuddy allows you to utilize a stack data structure ([LIFO](https://www.geeksforgeeks.org/dsa/lifo-last-in-first-out-approach-in-programming/)).
 
 * Supports all standard stack implementation functions and more such as: Push, Pop, Peek, IsEmpty and Size.
 * Perfect for use with state machines, pathfinding systems, undo systems, NPC AI behavior, and much more!
