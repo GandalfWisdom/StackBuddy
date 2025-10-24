@@ -12,22 +12,24 @@ StackBuddy allows you to utilize a stack data structure ([LIFO](## 'Last in firs
 ## Usage
 Initialize your StackBuddy object:
 ```lua
-local stack_buddy = StackBuddy.new();
+local StackBuddy = require(path.to.stackbuddy);
+local stack = StackBuddy.new();
 ```
 Push, Pop, and Peek at your data to your heart's content:
 ```lua
-    local function set_undo(last_input: Enum.Keycode)
-        stack_buddy:Push(last_input);
+
+    local function set_undo(last_input: Enum.KeyCode)
+        stack:Push(last_input);
     end;
 
     local function undo()
-        local undo_input: Enum.Keycode = stack_buddy:Pop();
+        local undo_input: Enum.KeyCode = stack:Pop();
         print(undo_input.Name, " has been undone");
     end;
 
-    set_undo(Enum.Keycode.A);
-    set_undo(Enum.Keycode.B);
-    set_undo(Enum.Keycode.C);
+    set_undo(Enum.KeyCode.A);
+    set_undo(Enum.KeyCode.B);
+    set_undo(Enum.KeyCode.C);
 
     undo();
     undo();
