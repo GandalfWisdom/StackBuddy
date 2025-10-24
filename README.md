@@ -14,7 +14,7 @@ Initialize your StackBuddy object:
 ```lua
 local stack_buddy = StackBuddy.new();
 ```
-Push, pop, and Peek at your data to your heart's content:
+Push, Pop, and Peek at your data to your heart's content:
 ```lua
     local function set_undo(last_input: Enum.Keycode)
         stack_buddy:Push(last_input);
